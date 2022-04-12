@@ -1,7 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Snippet&display=swap");
+/*
+font-family: 'Snippet', sans-serif;
+*/
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Snippet', sans-serif;
+  scroll-behavior: smooth;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e6f0ff), color-stop(#d2e3fe), color-stop(#bdd7fe), color-stop(#a9cafd), to(#94bdfc));
+  background-image: linear-gradient(to bottom, #e6f0ff, #d2e3fe, #bdd7fe, #a9cafd, #94bdfc);
+}
+
+.encabezado {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 1rem;
+  color: #003789;
+}
+
+.encabezado .mateo {
+  font-size: 2.5rem;
+  margin-left: 2rem;
+}
+
+.encabezado ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.encabezado ul li {
+  margin-right: 2rem;
+  font-size: 2rem;
+}
+
+.inicial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 4rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 5rem;
+}
+
+.inicial .titulos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.inicial .titulos h1 {
+  font-size: 2.7rem;
+  color: #003789;
+}
+
+.inicial .titulos h2 {
+  font-size: 2.2rem;
+  color: #256CD7;
+}
+
+.inicial .imgInicial {
+  width: 40%;
+}
+
+.descripcionWeb {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #003789;
+}
+
+p {
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.pngMateo {
+  width: 10rem;
 }
 /*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Snippet', sans-serif;
+    scroll-behavior: smooth;
+    background-image: linear-gradient(to bottom, #e6f0ff, #d2e3fe, #bdd7fe, #a9cafd, #94bdfc);
+}
+
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    color: #003789;
+    .mateo {
+        font-size: 2.5rem;
+        margin-left: 2rem;
+    }
+    ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        li {
+            margin-right: 2rem;
+            font-size: 2rem;
+        }
+        
+    }
+}
+
+
+
