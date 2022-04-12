@@ -52,14 +52,14 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 4rem;
+  margin-top: 8rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  margin-bottom: 5rem;
+  margin-bottom: 8rem;
 }
 
 .inicial .titulos {
@@ -73,12 +73,12 @@ html {
 }
 
 .inicial .titulos h1 {
-  font-size: 2.7rem;
+  font-size: 3rem;
   color: #003789;
 }
 
 .inicial .titulos h2 {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   color: #256CD7;
 }
 
@@ -86,9 +86,23 @@ html {
   width: 40%;
 }
 
-.descripcionWeb {
+.divDescripcion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.divDescripcion .descripcionWeb {
   font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 2.3rem;
   color: #003789;
+  text-align: center;
+  width: 90%;
+  margin-bottom: 8rem;
 }
 
 p {
