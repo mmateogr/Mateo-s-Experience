@@ -1,8 +1,10 @@
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - -PÁGINA PRINCIPAL- - - - - - - - - -*/
+
 .inicial {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: 8rem;
+    margin-top: 6rem;
     align-items: center;
     justify-content: space-evenly;
     margin-bottom: 10rem;
@@ -21,7 +23,7 @@
     }
     .imgInicial {
         margin-top: 5rem;
-        width: 60%;
+        width: 80%;
     }
 }
 .divDescripcion {
@@ -34,15 +36,35 @@
         color: #003789;
         text-align: center;
         width: 90%;
-        margin-bottom: 8rem;
+        margin-bottom: 10rem;
     }
 }
-    
 
-p {
-    font-family: "Segoe UI", Arial, sans-serif;
+.solapa {
+    background-image: url(../imagenes/solapa.jpg);
+    background-position: 0% 39%;
+    background-size: cover;
+    height: 12vh;
+    width: 80%;
+    border-radius: 20px 20px 0 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.divBiografia {
+    background-color: #EBF3FF;
+    width: 80%;
+    border-radius: 0 0 20px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    margin-bottom: 8rem;
+        p {
+            font-family: "Segoe UI", Arial, sans-serif;
+            font-size: 1.4rem;
+            padding: 0 1rem 1rem 1rem;
+            color: #003789;
+        }
 }
 
-.pngMateo {
-    width: 10rem;
-}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - -PÁGINA PRINCIPAL- - - - - - - - - -*/

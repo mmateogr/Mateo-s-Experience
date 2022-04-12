@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Snippet&display=swap");
 /*
 font-family: 'Snippet', sans-serif;
@@ -48,6 +49,7 @@ html {
   font-size: 2rem;
 }
 
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - -PÁGINA PRINCIPAL- - - - - - - - - -*/
 .inicial {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -57,7 +59,7 @@ html {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
-  margin-top: 8rem;
+  margin-top: 6rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -90,7 +92,7 @@ html {
 
 .inicial .imgInicial {
   margin-top: 5rem;
-  width: 60%;
+  width: 80%;
 }
 
 .divDescripcion {
@@ -109,14 +111,36 @@ html {
   color: #003789;
   text-align: center;
   width: 90%;
+  margin-bottom: 10rem;
+}
+
+.solapa {
+  background-image: url(../imagenes/solapa.jpg);
+  background-position: 0% 39%;
+  background-size: cover;
+  height: 12vh;
+  width: 80%;
+  border-radius: 20px 20px 0 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.divBiografia {
+  background-color: #EBF3FF;
+  width: 80%;
+  border-radius: 0 0 20px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
   margin-bottom: 8rem;
 }
 
-p {
+.divBiografia p {
   font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 1.4rem;
+  padding: 0 1rem 1rem 1rem;
+  color: #003789;
 }
 
-.pngMateo {
-  width: 10rem;
-}
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - -PÁGINA PRINCIPAL- - - - - - - - - -*/
 /*# sourceMappingURL=estilos.css.map */
