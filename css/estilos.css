@@ -52,6 +52,11 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
   margin-top: 8rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -59,7 +64,7 @@ html {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  margin-bottom: 8rem;
+  margin-bottom: 10rem;
 }
 
 .inicial .titulos {
@@ -73,17 +78,19 @@ html {
 }
 
 .inicial .titulos h1 {
-  font-size: 3rem;
+  font-size: 5rem;
   color: #003789;
 }
 
 .inicial .titulos h2 {
-  font-size: 2.5rem;
+  font-size: 4.5rem;
   color: #256CD7;
+  font-weight: 100;
 }
 
 .inicial .imgInicial {
-  width: 40%;
+  margin-top: 5rem;
+  width: 60%;
 }
 
 .divDescripcion {
@@ -97,7 +104,7 @@ html {
 
 .divDescripcion .descripcionWeb {
   font-family: "Segoe UI", Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 100;
   font-size: 2.3rem;
   color: #003789;
   text-align: center;

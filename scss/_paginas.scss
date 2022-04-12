@@ -1,24 +1,27 @@
 .inicial {
     display: flex;
+    flex-direction: column;
+    text-align: center;
     margin-top: 8rem;
     align-items: center;
     justify-content: space-evenly;
-    margin-bottom: 8rem;
+    margin-bottom: 10rem;
     .titulos {
         display: flex;
         flex-direction: column;
         h1 {
-            font-size: 3rem;
+            font-size: 5rem;
             color: #003789;
         }
         h2 {
-            font-size: 2.5rem;
+            font-size: 4.5rem;
             color: #256CD7;
+            font-weight: 100;
         }
     }
     .imgInicial {
-        
-        width: 40%;
+        margin-top: 5rem;
+        width: 60%;
     }
 }
 .divDescripcion {
@@ -26,7 +29,7 @@
     justify-content: center;
     .descripcionWeb {
         font-family: "Segoe UI", Arial, sans-serif;
-        font-weight: 400;
+        font-weight: 100;
         font-size: 2.3rem;
         color: #003789;
         text-align: center;
