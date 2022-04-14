@@ -105,7 +105,6 @@ html {
 }
 
 .divDescripcion .descripcionWeb {
-  font-family: "Segoe UI", Arial, sans-serif;
   font-weight: 100;
   font-size: 2.3rem;
   color: #003789;
@@ -114,32 +113,58 @@ html {
   margin-bottom: 10rem;
 }
 
-.solapa {
-  background-image: url(../imagenes/solapa.jpg);
-  background-position: 0% 39%;
-  background-size: cover;
-  height: 12vh;
-  width: 80%;
-  border-radius: 20px 20px 0 0;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .divBiografia {
   background-color: #EBF3FF;
   width: 80%;
-  border-radius: 0 0 20px 20px;
+  border-radius: 20px 20px 20px 20px;
   margin-left: auto;
   margin-right: auto;
   text-align: justify;
   margin-bottom: 8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.divBiografia .tituloIntro {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.divBiografia .mateoPng {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
 }
 
 .divBiografia p {
   font-family: "Segoe UI", Arial, sans-serif;
   font-size: 1.4rem;
-  padding: 0 1rem 1rem 1rem;
+  padding: 0 1rem 2rem 1rem;
   color: #003789;
+  margin: 0 1rem;
+}
+
+.divBiografia .masInfo {
+  background-color: #0E4290;
+  border-radius: 20px 20px 20px 20px;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+
+.divBiografia .masInfo p {
+  text-align: center;
+  color: #EBF3FF;
+  padding: 0.8rem 1rem 1rem 1rem;
+  margin: 0;
 }
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - -PÁGINA PRINCIPAL- - - - - - - - - -*/
