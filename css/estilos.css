@@ -32,6 +32,8 @@ html {
 .encabezado .mateo {
   font-size: 2.5rem;
   margin-left: 2rem;
+  text-decoration: none;
+  color: #003789;
 }
 
 .encabezado ul {
@@ -47,6 +49,16 @@ html {
 .encabezado ul li {
   margin-right: 2rem;
   font-size: 2rem;
+}
+
+.encabezado ul li a {
+  text-decoration: none;
+  color: #003789;
+}
+
+footer {
+  text-align: center;
+  background-color: #6089c6;
 }
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - -PÁGINA PRINCIPAL- - - - - - - - - -*/
@@ -110,17 +122,18 @@ html {
   color: #003789;
   text-align: center;
   width: 90%;
-  margin-bottom: 10rem;
+  margin-bottom: 12rem;
+  text-decoration: none;
 }
 
 .divBiografia {
-  background-color: #EBF3FF;
+  background-color: #ebf3ff8d;
   width: 80%;
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
   text-align: justify;
-  margin-bottom: 8rem;
+  margin-bottom: 12rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -136,11 +149,13 @@ html {
   font-size: 3rem;
 }
 
-.divBiografia .mateoPng {
-  width: 60%;
+.divBiografia .mateoSelfie {
+  margin-top: 2rem;
+  width: 87%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2rem;
+  border-radius: 10px;
 }
 
 .divBiografia p {
@@ -153,7 +168,7 @@ html {
 
 .divBiografia .masInfo {
   background-color: #0E4290;
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 20px;
   width: 35%;
   margin-left: auto;
   margin-right: auto;
@@ -167,5 +182,67 @@ html {
   margin: 0;
 }
 
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 5rem;
+}
+
+.cards .preCard1, .cards .preCard2 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.cards .preCard1 p, .cards .preCard2 p {
+  position: absolute;
+  top: 50px;
+  font-size: 3rem;
+  font-weight: 300;
+  color: #EBF3FF;
+  z-index: 1;
+}
+
+.cards .preCard1 .card1, .cards .preCard1 .card2, .cards .preCard2 .card1, .cards .preCard2 .card2 {
+  width: 80%;
+  height: 20vh;
+  background-size: cover;
+  margin-bottom: 3rem;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+}
+
+.cards .card1 {
+  background-image: url(/imagenes/churros.JPEG);
+  background-position: 20% 10%;
+}
+
+.cards .card2 {
+  background-image: url(/imagenes/deEspalda.JPG);
+  background-position: 0 60%;
+}
+
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - -PÁGINA PRINCIPAL- - - - - - - - - -*/
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - -MI VIAJE- - - - - - - - - -*/
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - -MI VIAJE- - - - - - - - - -*/
 /*# sourceMappingURL=estilos.css.map */

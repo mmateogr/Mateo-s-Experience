@@ -35,18 +35,19 @@
         color: #003789;
         text-align: center;
         width: 90%;
-        margin-bottom: 10rem;
+        margin-bottom: 12rem;
+        text-decoration: none;
     }
 }
 
 .divBiografia {
-    background-color: #EBF3FF;
+    background-color: #ebf3ff8d;
     width: 80%;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
-    margin-bottom: 8rem;
+    margin-bottom: 12rem;
     display: flex;
     flex-direction: column;
         .tituloIntro {
@@ -54,11 +55,13 @@
             text-align: center;
             font-size: 3rem;
         }
-        .mateoPng {
-            width: 60%;
+        .mateoSelfie {
+            margin-top: 2rem;
+            width: 87%;
             margin-left: auto;
             margin-right: auto;
             margin-bottom: 2rem;
+            border-radius: 10px;
         }
         p {
             font-family: "Segoe UI", Arial, sans-serif;
@@ -69,7 +72,7 @@
         }
         .masInfo {
             background-color: #0E4290;
-            border-radius: 20px 20px 20px 20px;
+            border-radius: 20px;
             width: 35%;
             margin-left: auto;
             margin-right: auto;
@@ -84,5 +87,51 @@
         }
 }
 
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5rem;
+    .preCard1, .preCard2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        p {
+            position: absolute;
+            top: 50px;
+            font-size: 3rem;
+            font-weight: 300;
+            color: #EBF3FF;
+            z-index: 1;
+            
+        }
+        .card1, .card2 {
+            width: 80%;
+            height: 20vh;
+            background-size: cover;
+            margin-bottom: 3rem;
+            border-radius: 20px;
+            display: flex;
+            
+            filter: blur(2px);
+                
+        } 
+    }
+    
+    .card1 {
+        background-image: url(/imagenes/churros.JPEG);
+        background-position: 20% 10%;
+    }
+
+    .card2 {
+        background-image: url(/imagenes/deEspalda.JPG);
+        background-position: 0 60%;
+    }
+}
+
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - -PÁGINA PRINCIPAL- - - - - - - - - -*/
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - -MI VIAJE- - - - - - - - - -*/
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - -MI VIAJE- - - - - - - - - -*/

@@ -21,17 +21,29 @@ html {
     .mateo {
         font-size: 2.5rem;
         margin-left: 2rem;
+        text-decoration: none;
+        color: #003789;
     }
     ul {
         display: flex;
         align-items: center;
         list-style: none;
+        
         li {
             margin-right: 2rem;
             font-size: 2rem;
+            a {
+                text-decoration: none;
+                color: #003789;
+            }
         }
         
     }
+}
+
+footer {
+    text-align: center;
+    background-color: #6089c6;
 }
 
 
